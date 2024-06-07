@@ -1,0 +1,24 @@
+<html>
+<head>
+    <title>Enable/Disable a HTML button</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+</head>
+
+<body>
+     <h2>ingrese su correo</h2><input type="text" id="reco" />
+    <input type="submit" id="submit" disabled="disabled" />
+</body>
+
+<script>
+    $(document).ready(function () {
+        $('#reco').on('input change', function () {
+            if ($(this).val() != '') {
+                $('#submit').prop('disabled', false);
+            }
+            else {
+                $('#submit').prop('disabled', true);
+            }
+        });
+    });
+</script>
+</html>

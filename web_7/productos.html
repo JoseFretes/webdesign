@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es-py">
+    <head>
+      <link rel="shortcut.icon" href="icon.ico"/>
+        <title>Productos</title>
+        <meta charset="UF-8"/>
+        <link rel="stylesheet" href="bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+        
+
+    </head>
+    <body>
+      
+        <div class="container">
+            <div class="bg-dark"><h1 class="text-light">Gestión de productos</h1></div>
+            <div class="row">
+                <div class="col-sm-12">
+                        <!-- Button trigger modal -->
+<button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Agregar Productos
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">El producto se ha agragado correctamente</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+                
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+        <h3>Lista de productos</h3>
+        <table class="table">
+            <thead>
+              <tr>
+                <th>COD</th>
+                <th>Nombre</th>
+                <th>Marca</th>
+                <th>Precio</th>
+                <th>-</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th>1</th>
+                <td>camisa</td>
+                <td>polo</td>
+                <td>500.000</td>
+                <td><button type="button" class="btn btn-outline-info">Ver</button><button type="button" class="btn btn-outline-secondary">Editar</button><button type="button" class="btn btn-outline-danger">Eliminar</button></td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>calzado</td>
+                <td>Nike</td>
+                <td>350.000</td>
+                <td><button type="button" class="btn btn-outline-info">Ver</button><button type="button" class="btn btn-outline-secondary">Editar</button><button type="button" class="btn btn-outline-danger">Eliminar</button></td>
+
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>Pantalón</td>
+                <td>adidas</td>
+                <td>200.000</td>
+                <td><button type="button" class="btn btn-outline-info">Ver</button><button type="button" class="btn btn-outline-secondary">Editar</button><button type="button" class="btn btn-outline-danger">Eliminar</button></td>
+
+              </tr>
+            </tbody>
+          </table>
+            
+
+            
+    
+    </div>
+</div>
+    </body>
+    <script src="bootstrap.bundle.min.js"></script>
+
+</html>

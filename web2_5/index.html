@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>FrameWorks</title>
+    <link rel="icon" href="wallpaperrrr.jpg">
+    <style type="text/css">
+      #p1{
+       border: solid  #1c542d 2px;
+      }
+      </style>
+</head>
+<body>
+    <div>
+        <nav class="navbar navbar-expand-lg " id="nav">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">frameworkS</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </div>
+    
+ <button onclick="restablecer('p1');">Volver al color de fondo original</button>
+    <div class="container">
+        <h1 id="p1" onclick="cambiar_estilo(this)">Frame Works</h1>
+        <br>
+        <h2 id="p2" onclick="cambiar_estilo(this)">¿Qué son los FrameWorks?</h2>
+        <p>Un entorno de trabajo1​ (del inglés framework) o marco de trabajo​ es un conjunto estandarizado de conceptos, prácticas y criterios para enfocar un tipo de problemática particular que sirve como referencia, para enfrentar y resolver nuevos problemas de índole similar.</p>
+        <h2  id="p3" onclick="cambiar_estilo(this)">Los Frame Works más utilizados</h2>
+        <ul>
+            <li>Larabel</li>
+            <li>Flask</li>
+            <li>Symfony</li>
+            <li>Django</li>
+        </ul>
+        <h2 id="p3" onclick="cambiar_estilo(this)">javaScript y los frameworks</h2>
+        <p>Los frameworks de JavaScript son una parte esencial del desarrollo web front-end moderno. Estas herramientas proveen a los desarrolladores de soluciones probadas y testeadas para crear aplicaciones web interactivas y escalables1. Un framework JavaScript es un conjunto de bibliotecas, herramientas y estándares que nos ayudan a desarrollar aplicaciones web de manera más eficiente. Proporcionan una estructura y un conjunto de reglas que nos permiten organizar y facilitar el desarrollo de nuestros proyectos. Algunas ventajas de utilizar un framework JavaScript incluyen el ahorro de tiempo y esfuerzo, la mejora del rendimiento de nuestras aplicaciones y la facilitación de la colaboración en equipo. Así que, si estás construyendo una aplicación web, móvil o incluso una aplicación de escritorio, considera utilizar uno de estos frameworks para potenciar tus proyectos</p>
+    </div>
+
+    <div class="frame" id="p3" onclick="cambiar_estilo2(this)" >
+        <h2 style="text-align: center;"> Los FrameWorks más utilizados de JavaScript</h2>
+    </div>
+    <div class="container">
+         <h2 id="p4" onclick="cambiar_estilo(this)">React</h2>
+        <p>React (también llamada React.js o ReactJS) es una biblioteca Javascript de código abierto diseñada para crear interfaces de usuario con el objetivo de facilitar el desarrollo de aplicaciones en una sola página. Es mantenido por Facebook y la comunidad de software libre. En el proyecto hay más de mil desarrolladores libres.
+
+            React intenta ayudar a los desarrolladores a construir aplicaciones que usan datos que cambian todo el tiempo. Su objetivo es ser sencillo, declarativo y fácil de combinar. React sólo maneja la interfaz de usuario en una aplicación; React es la Vista en un contexto en el que se use el patrón MVC (Modelo-Vista-Controlador) o MVVM (Modelo-vista-modelo de vista). También puede ser utilizado con las extensiones de React-based que se encargan de las partes no-UI (que no forman parte de la interfaz de usuario) de una aplicación web.</p>
+
+        <h2 id="p5" onclick="cambiar_estilo(this)">Angular</h2>
+
+        <p>Angular (comúnmente llamado Angular 2+ o Angular 2) es un framework para aplicaciones web desarrollado en TypeScript, de código abierto, mantenido por Google, que se utiliza para crear y mantener aplicaciones web de una sola página. Su objetivo es aumentar las aplicaciones basadas en navegador con capacidad de Modelo Vista Controlador (MVC), en un esfuerzo para hacer que el desarrollo y las pruebas sean más fáciles.
+
+            La biblioteca lee el HTML que contiene atributos de las etiquetas personalizadas adicionales, entonces obedece a las directivas de los atributos personalizados, y une las piezas de entrada o salida de la página a un modelo representado por las variables estándar de JavaScript.
+            
+            Angular se basa en clases tipo "Componentes", cuyas propiedades son las usadas para hacer el binding de los datos. En dichas clases tenemos propiedades (variables) y métodos (funciones a llamar).
+            
+            Angular es la evolución de AngularJS aunque incompatible con su predecesor.</p>
+        <h2 id="p6" onclick="cambiar_estilo(this)">Vue.js</h2>
+        <p>Vue fue creado por Evan You después de trabajar para Google usando AngularJS en varios proyectos. Más tarde resumió su proceso de pensamiento: "Pensé, ¿qué tal si pudiera extraer la parte que realmente me gustaba de Angular y construir algo realmente liviano?"8​ El primer código fuente comprometido con el proyecto fue fechado en julio de 2013, y Vue fue liberado por primera vez en febrero siguiente, en 2014.
+            Vue.js cuenta con una arquitectura de adaptación gradual que se centra en la representación declarativa y la composición de componentes. La biblioteca central se centra sólo en la capa de vista.5​ Las características avanzadas necesarias para aplicaciones complejas como el enrutamiento, la gestión de estados y las herramientas de construcción se ofrecen a través de librerías y paquetes de apoyo mantenidos oficialmente,6​ con Next.js como una de las soluciones más populares.
+
+Vue.js permite extender el HTML con atributos HTML llamados directivas.7​ Las directivas ofrecen funcionalidad a las aplicaciones HTML, y vienen como directivas incorporadas o definidas por el usuario.
+e.js (comúnmente conocido como Vue; se pronuncia /vjuː/, como "view"3​) es un framework de JavaScript de código abierto para la construcción de interfaces de usuario y aplicaciones de una sola página. Fue creado por Evan You, y es mantenido por él y por el resto de los miembros activos del equipo central que provienen de diversas empresas como Netlify y Netguru.4​
+        </p>
+    </div>
+   
+</body>
+<script src="bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+</html>

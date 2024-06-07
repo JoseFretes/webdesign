@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Calculadora</title>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="widht-device-widht initial-scale-1.0">
+        <link rel="stylesheet" href="bootstrap.min.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="row" > 
+                <div class="col-4 bg-"></div>
+                <div class="col-4">
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-header bg-info text-white">
+                            Calculadora
+                        </div>
+                        <div class="display">
+                            <input class="form-control" type="text" placeholder="ingrese la operación" id="display">
+                        </div>
+                        
+                        <div class="display_resultado">
+                            <input class="form-control" type="text" placeholder="0" disabled readonly id="display_resultado">
+                        </div>
+                        
+
+
+                        <div class="btn-group" role="group" >
+                            <button type="button" class="btn btn-outline-primary" onclick="escribir(7)">7</button>
+                            <button type="button" class="btn btn-outline-primary" onclick="escribir(8)">8</button>
+                            <button type="button" class="btn btn-outline-primary" onclick="escribir(9)">9</button>
+                            <button type="button" class="btn btn-outline-primary" onclick="operar('/')">/</button>
+                          </div>
+
+                          <div class="btn-group" role="group" aria-label="Basic outlined example">
+                            <button type="button" class="btn btn-outline-primary" onclick="escribir(4)">4</button>
+                            <button type="button" class="btn btn-outline-primary" onclick="escribir(5)">5</button>
+                            <button type="button" class="btn btn-outline-primary" onclick="escribir(6)">6</button>
+                            <button type="button" class="btn btn-outline-primary" onclick="operar('*')">*</button>
+                          </div>
+
+                          <div class="btn-group" role="group" aria-label="Basic outlined example">
+                            <button type="button" class="btn btn-outline-primary" onclick="escribir(1)">1</button>
+                            <button type="button" class="btn btn-outline-primary" onclick="escribir(2)">2</button>
+                            <button type="button" class="btn btn-outline-primary" onclick="escribir(3)">3</button>
+                            <button type="button" class="btn btn-outline-primary" onclick="operar('+')">+</button>
+                          </div>
+
+                          <div class="btn-group" role="group" aria-label="Basic outlined example">
+                            <button type="button" class="btn btn-outline-primary" onclick="escribir(0)">0</button>
+                            <button type="button" class="btn btn-outline-primary" onclick="escribir('.')">.</button>
+                            <button type="button" class="btn btn-outline-primary" onclick="operar('-')">-</button>
+                            <button type="button" class="btn btn-outline-primary" onclick="operar('=')">= </button>
+                          </div>
+                            <!--calculadora-->
+                        <div class="card-footer">
+                            <button class="form-control btn btn-success" onclick="limpiar()">Clear</button>
+                          </div>
+                    </div>
+                </div>
+                <div class="col-4 bg-"></div>
+            </div>
+        </div>
+    </body>
+    <script src="bootstrap.bundle.min copy.js"></script>
+    <script src="script.js"></script>
+</html>

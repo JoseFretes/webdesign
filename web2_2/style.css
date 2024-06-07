@@ -1,0 +1,17 @@
+.container{
+    margin-top: 70px;
+    margin-left: 30%;
+    height: 300px;
+    width: 400px;
+    background-color: grey;
+    color: black;
+}
+
+button{
+    height: 50px;
+    width: 100px;
+    left: 40%;
+    top: 9px;
+   
+    position: absolute;
+}

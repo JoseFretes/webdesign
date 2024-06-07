@@ -1,0 +1,26 @@
+.container{
+    background-color: #4c3228;
+    color: beige;
+    position: relative;
+    margin: auto;
+    margin-top: 45px;
+    width: 50%;
+    height: 80%;
+}
+.form-text{
+    color: beige;
+}
+.btn{
+    color: beige;
+    background-color: #8b6c5c;
+}
+.btn-close{
+    position: relative;
+    margin-left: 97%;
+    top: 2%;
+    background-color: beige;
+ }
+H6{
+    color: #4c3228;
+}
+
