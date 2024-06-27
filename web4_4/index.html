@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jquerry</title>
+</head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+  
+    <script>
+        $(document).ready(function(){
+            $("h1").click(function(){
+                $(this).hide();
+            });
+            $("#ver").click(function(){
+                $("h1").show();
+            
+            });
+            $("#parrafo").click(function(){
+                $("p").show();
+            });
+            $("#menos").click(function(){
+                $("p").hide();
+            });
+        });
+    </script>
+   <h1>Click para ocultar el título</h1>
+    <button id="ver">Mostrar contenido</button>
+    <button id="parrafo">Ver más</button>
+    <button id="menos">Ver menos</button>
+    <p hidden="hidden"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis iure consequatur, maiores labore corporis nostrum deserunt sint soluta architecto fugiat veritatis sed cum. Nulla iure omnis quis, tenetur architecto cumque.</p>
+</body>
+
+</body>
+</html>
