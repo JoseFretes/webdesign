@@ -1,0 +1,40 @@
+.container{
+    width: 40%;
+    margin-top: 5%
+}
+.calc{
+    margin: auto;
+}
+
+.titulo{
+    background-color: aqua;
+    color: black;
+}
+
+.tema {
+    padding: 10px;
+    font-size: 18px;
+     text-align: center;
+     cursor: pointer;
+        }
+    
+.theme-light {
+    color: #333;
+        }
+       
+.theme-dark{
+
+    input{
+        background-color: grey;
+        color: green;
+    }
+    button{
+        background-color: grey;
+    }
+    .numero, .operador, .calcular, .titulo {
+         background-color: black;
+            color: green;
+
+    }
+
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> 
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-4"></div>
+            <div class="col-4">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-header bg-info text-white">
+                        Calculadora
+                    </div>
+                    <div class="display">
+                        <input class="form-control" type="text" placeholder="Ingrese la operación" id="inputOperacion">
+                    </div>
+                    <div class="input">
+                        <button onclick="pressAllClear()">AC</button>
+                        <button onclick="pressNum(this)">0</button>
+                        <button onclick="pressClear()"><i class="fas fa-backspace"></i></button>
+                        <!-- Agrega más botones aquí -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Función para borrar todo
+        function pressAllClear() {
+            document.getElementById("inputOperacion").value = "";
+        }
+
+        // Función para agregar números
+        function pressNum(button) {
+            document.getElementById("inputOperacion").value += button.innerText;
+        }
+
+        // Función para borrar un carácter
+        function pressClear() {
+            const input = document.getElementById("inputOperacion");
+            input.value = input.value.slice(0, -1);
+        }
+        function Suma(){
+            
+        }
+    </script>
+</body>
+</html>

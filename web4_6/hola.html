@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <style>
+        /* Estilos para los botones */
+        .calculator__keys {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
+        }
+        .key {
+            padding: 10px;
+            font-size: 18px;
+            text-align: center;
+            cursor: pointer;
+        }
+        /* Estilos para el tema claro */
+        .theme-light {
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        /* Estilos para el tema oscuro */
+        .theme-dark {
+            background-color: #333;
+            color: #f9f9f9;
+        }
+    </style>
+</head>
+<body>
+    <div class="calculator">
+        <div class="calculator__display">0</div>
+        <div class="calculator__keys">
+            <!-- Botones aquí -->
+            <button class="key" onclick="cambiarTema()">Cambiar Tema</button>
+            <!-- Otros botones de la calculadora -->
+        </div>
+    </div>
+
+    <script>
+        let darkMode = false;
+
+        function cambiarTema() {
+            const calculator = document.querySelector('.calculator');
+            const keys = document.querySelectorAll('.key');
+
+            if (darkMode) {
+                calculator.classList.remove('theme-dark');
+                calculator.classList.add('theme-light');
+                keys.forEach(key => key.classList.remove('theme-dark'));
+            } else {
+                calculator.classList.remove('theme-light');
+                calculator.classList.add('theme-dark');
+                keys.forEach(key => key.classList.add('theme-dark'));
+            }
+
+            darkMode = !darkMode;
+        }
+    </script>
+</body>
+</html>
