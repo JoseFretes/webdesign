@@ -1,0 +1,32 @@
+#hola{
+    background-color: #804000;
+    color: black;
+}
+#home{
+    color: beige;
+}
+
+.Container{
+    background-color: #995d2d;
+    color: wheat;
+}
+.navbar-brand{
+    color: white    ;
+}
+
+#link{
+    color: beige;
+}
+
+#search {
+    background-color: beige;
+    color: black;
+}
+
+#columns{
+    background-color: #995d2d;
+}
+.col{
+    color: beige;
+}
+
