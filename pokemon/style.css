@@ -1,0 +1,83 @@
+#contenedor {
+    background-image: url("/assets/img/pokemon.webp");
+     tamaño del fondo: 100%; 
+    ancho: 100%; 
+   }
+   
+   #pordos {
+    ancho: 160%;
+     flotador: izquierda; 
+   }
+   
+   li {
+    display: bloque-en-line
+   ;  margen derecho: 5px; 
+   }
+   
+   ul{
+    display: bloque-en-line;
+     estilo de lista: círculo; 
+    tipo-estilo-lista: círculo !importante; 
+   }
+   
+   h4{
+    display: inline-block;
+   } 
+   
+   .imgpoke{
+    display: bloque-en-line;
+     margen derecho: 20px; 
+    padding-right: 45px;; 
+   }
+   
+   .info{
+    display: bloque-en-línea;
+     margen izquierdo: 10px; 
+   }
+   
+   /* Modal */
+   
+   .modal { 
+    position: fixed; 
+    índice z: 1; 
+    parte superior de relleno: 100px; 
+    izquierda: 0; 
+    arriba: 0; 
+    ancho: 100%; 
+    altura: 100%; 
+    desbordamiento: automático; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+    color de fondo: rgba(0, 0, 0, 0.6); 
+   }
+   
+   .cerrar {
+    color: negro;
+     float: derecha; 
+    tamaño de fuente: 30px; 
+    font-weight: negrita; 
+   }
+   
+   .cerrar:hover,
+   .cerrar:focus {
+    color: gris;
+     decoración de texto: ninguna; 
+    cursor: puntero; 
+   }
+   
+   .contenido-modal {
+    border: 9px gris sólido;
+     radio del borde: 12px; 
+    text-align: centro; 
+    posición: relativa; 
+    color de fondo: gris; 
+    margen: automático; 
+    relleno: 10px; 
+    ancho: 80%; 
+    ancho mínimo: 350px; 
+    ancho máximo: 600px; 
+    color: blanco; 
+   }
+   
+   .imgmodal {
+    width: 65%;    
+   }
